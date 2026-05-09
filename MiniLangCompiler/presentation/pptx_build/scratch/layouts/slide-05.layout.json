@@ -1,0 +1,1830 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/9x7d0p",
+    "id": "9x7d0p",
+    "slide": 5,
+    "layoutId": "05d12346-ad23-4cf6-924f-109e7b1d2c7f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "05d12346-ad23-4cf6-924f-109e7b1d2c7f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "1",
+      "name": "background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "rect",
+      "fillColor": "#F6FAF7"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q5o7qpg",
+      "id": "2",
+      "bbox": [
+        82,
+        58,
+        278,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "MINILANG COMPILER / INTERPRETER",
+      "textPreview": "MINILANG COMPILER / INTERPRETER",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MINILANG COMPILER / INTERPRETER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MINILANG COMPILER / INTERPRETER",
+          "runs": [
+            {
+              "index": 1,
+              "text": "MINILANG COMPILER / INTERPRETER",
+              "fontSize": 18,
+              "color": "#2E8B57",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "3",
+      "name": "slide-title",
+      "bbox": [
+        82,
+        92,
+        1756,
+        70
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Lexical Analysis",
+      "textPreview": "Lexical Analysis",
+      "resolvedFontSize": 58,
+      "resolvedTextStyle": {
+        "fontSize": 58,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lexical Analysis"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lexical Analysis",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lexical Analysis",
+              "fontSize": 58,
+              "color": "#12343B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "4",
+      "name": "slide-subtitle",
+      "bbox": [
+        82,
+        174,
+        1756,
+        32
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "The lexer reads characters and produces a token stream.",
+      "textPreview": "The lexer reads characters and produces a token stream.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The lexer reads characters and produces a token stream."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The lexer reads characters and produces a token stream.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The lexer reads characters and produces a token stream.",
+              "fontSize": 26,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "5",
+      "bbox": [
+        82,
+        232,
+        46,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "INPUT",
+      "textPreview": "INPUT",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INPU"
+          },
+          {
+            "index": 2,
+            "text": "T"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INPUT",
+          "runs": [
+            {
+              "index": 1,
+              "text": "INPUT",
+              "fontSize": 18,
+              "color": "#2E8B57",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "6",
+      "bbox": [
+        82,
+        274,
+        857,
+        122.4
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#0D1F24"
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "7",
+      "bbox": [
+        110,
+        298,
+        802,
+        76
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.1.0"
+      },
+      "geometry": "rect",
+      "text": "int x = 5;\nprint(x);",
+      "textPreview": "int x = 5; | print(x);",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "fontSize": 31,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "int x = 5;"
+          },
+          {
+            "index": 2,
+            "text": "print(x);"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "int x = 5;",
+          "runs": [
+            {
+              "index": 1,
+              "text": "int x = 5;",
+              "fontSize": 31,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "print(x);",
+          "runs": [
+            {
+              "index": 1,
+              "text": "print(x);",
+              "fontSize": 31,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "8",
+      "bbox": [
+        82,
+        416,
+        858,
+        34
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.2"
+      },
+      "geometry": "rect",
+      "text": "Whitespace and comments are ignored. Meaningful parts become tokens.",
+      "textPreview": "Whitespace and comments are ignored. Meaningful parts become tokens.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Whitespace and comments are ignored. Meaningful parts become tokens."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Whitespace and comments are ignored. Meaningful parts become tokens.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Whitespace and comments are ignored. Meaningful parts become tokens.",
+              "fontSize": 28,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "9",
+      "bbox": [
+        982,
+        232,
+        118,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0"
+      },
+      "geometry": "rect",
+      "text": "TOKEN OUTPUT",
+      "textPreview": "TOKEN OUTPUT",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TOKEN"
+          },
+          {
+            "index": 2,
+            "text": "OUTPUT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TOKEN OUTPUT",
+          "runs": [
+            {
+              "index": 1,
+              "text": "TOKEN OUTPUT",
+              "fontSize": 18,
+              "color": "#3C7DAD",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "10",
+      "bbox": [
+        981,
+        274,
+        857,
+        364.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#112E3A"
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "11",
+      "bbox": [
+        1010,
+        298,
+        802,
+        318
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0"
+      },
+      "geometry": "rect",
+      "text": "Token(INT, int)\nToken(IDENTIFIER, x)\nToken(ASSIGN, =)\nToken(INTEGER, 5)\nToken(SEMICOLON, ;)\nToken(PRINT, print)\nToken(LPAREN, ()\nToken(IDENTIFIER, x)\nToken(RPAREN, ))\nToken(SEMICOLON, ;)\nToken(EOF, EOF)",
+      "textPreview": "Token(INT, int) | Token(IDENTIFIER, x) | Token(ASSIGN, =) | Token(INTEGER, 5) | Token(SEMICOLON, ;) | Token(PRINT, print) | Token(LPAREN,...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 11,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Token(INT, int)"
+          },
+          {
+            "index": 2,
+            "text": "Token(IDENTIFIER, x)"
+          },
+          {
+            "index": 3,
+            "text": "Token(ASSIGN, =)"
+          },
+          {
+            "index": 4,
+            "text": "Token(INTEGER, 5)"
+          },
+          {
+            "index": 5,
+            "text": "Token(SEMICOLON, ;)"
+          },
+          {
+            "index": 6,
+            "text": "Token(PRINT, print)"
+          },
+          {
+            "index": 7,
+            "text": "Token(LPAREN, ()"
+          },
+          {
+            "index": 8,
+            "text": "Token(IDENTIFIER, x)"
+          },
+          {
+            "index": 9,
+            "text": "Token(RPAREN, ))"
+          },
+          {
+            "index": 10,
+            "text": "Token(SEMICOLON, ;)"
+          },
+          {
+            "index": 11,
+            "text": "Token(EOF, EOF)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Token(INT, int)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(INT, int)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Token(IDENTIFIER, x)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(IDENTIFIER, x)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Token(ASSIGN, =)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(ASSIGN, =)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Token(INTEGER, 5)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(INTEGER, 5)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Token(SEMICOLON, ;)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(SEMICOLON, ;)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "Token(PRINT, print)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(PRINT, print)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "Token(LPAREN, ()",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(LPAREN, ()",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "Token(IDENTIFIER, x)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(IDENTIFIER, x)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "Token(RPAREN, ))",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(RPAREN, ))",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "text": "Token(SEMICOLON, ;)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(SEMICOLON, ;)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "text": "Token(EOF, EOF)",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Token(EOF, EOF)",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "12",
+      "bbox": [
+        82,
+        986,
+        146,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Compiler Design Project",
+      "textPreview": "Compiler Design Project",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Compiler Design"
+          },
+          {
+            "index": 2,
+            "text": "Project"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Compiler Design Project",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Compiler Design Project",
+              "fontSize": 15,
+              "color": "#6A7A78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "13",
+      "bbox": [
+        1796,
+        994,
+        42,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "05 / 17",
+      "textPreview": "05 / 17",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05 /"
+          },
+          {
+            "index": 2,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05 / 17",
+          "runs": [
+            {
+              "index": 1,
+              "text": "05 / 17",
+              "fontSize": 15,
+              "color": "#6A7A78"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 0,
+          "height": 0
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "grid",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 164,
+              "height": 336.4
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 1920,
+              "height": 1080
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 277.98,
+                  "height": 146.4
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 277.98,
+                      "height": 21.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 277.98,
+                      "height": 21.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 278,
+                      "height": 22
+                    },
+                    "children": [],
+                    "text": "MINILANG COMPILER / INTERPRETER",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/3q5o7qpg",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 69.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 91.6,
+                      "width": 1756,
+                      "height": 69.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 92,
+                      "width": 1756,
+                      "height": 70
+                    },
+                    "children": [],
+                    "text": "Lexical Analysis",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/e9cvixcz",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.2",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 31.2
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 173.2,
+                      "width": 1756,
+                      "height": 31.2
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 174,
+                      "width": 1756,
+                      "height": 32
+                    },
+                    "children": [],
+                    "text": "The lexer reads characters and produces a token stream.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/loj2t83i",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 277.98,
+                      "height": 21.6
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 82,
+                      "top": 91.6,
+                      "width": 1756,
+                      "height": 69.6
+                    }
+                  },
+                  {
+                    "path": "0.0.0.2",
+                    "frame": {
+                      "left": 82,
+                      "top": 173.2,
+                      "width": 1756,
+                      "height": 31.2
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "grid",
+                "name": "two-column",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 42,
+                  "height": 0
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "column",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 46.9,
+                      "height": 217.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 857,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "hug"
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 46.9,
+                          "height": 21.6
+                        },
+                        "frame": {
+                          "left": 82,
+                          "top": 232.4,
+                          "width": 46.9,
+                          "height": 21.6
+                        },
+                        "snappedFrame": {
+                          "left": 82,
+                          "top": 232,
+                          "width": 46,
+                          "height": 22
+                        },
+                        "children": [],
+                        "text": "INPUT",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/w3m94fu1",
+                          "id": "5",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.1",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 56,
+                          "height": 122.4
+                        },
+                        "frame": {
+                          "left": 82,
+                          "top": 274,
+                          "width": 857,
+                          "height": 122.4
+                        },
+                        "snappedFrame": {
+                          "left": 82,
+                          "top": 274,
+                          "width": 857,
+                          "height": 122.4
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.1.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 74.4
+                            },
+                            "frame": {
+                              "left": 110,
+                              "top": 298,
+                              "width": 801,
+                              "height": 74.4
+                            },
+                            "snappedFrame": {
+                              "left": 110,
+                              "top": 298,
+                              "width": 802,
+                              "height": 76
+                            },
+                            "children": [],
+                            "text": "int x = 5;\nprint(x);",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/ex0nuxc3",
+                              "id": "7",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 28,
+                          "bottom": 24,
+                          "left": 28
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 110,
+                          "top": 298,
+                          "width": 801,
+                          "height": 74.4
+                        },
+                        "element": {
+                          "aid": "sh/3itgfmlk",
+                          "id": "6",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.2",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 33.6
+                        },
+                        "frame": {
+                          "left": 82,
+                          "top": 416.4,
+                          "width": 857,
+                          "height": 33.6
+                        },
+                        "snappedFrame": {
+                          "left": 82,
+                          "top": 416,
+                          "width": 858,
+                          "height": 34
+                        },
+                        "children": [],
+                        "text": "Whitespace and comments are ignored. Meaningful parts become tokens.",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/lkjm1cfa",
+                          "id": "8",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "gap": 20,
+                    "effectiveGap": 20,
+                    "justifyOffset": 0,
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 857,
+                      "height": 725.6
+                    },
+                    "items": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "frame": {
+                          "left": 82,
+                          "top": 232.4,
+                          "width": 46.9,
+                          "height": 21.6
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.1",
+                        "frame": {
+                          "left": 82,
+                          "top": 274,
+                          "width": 857,
+                          "height": 122.4
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.2",
+                        "frame": {
+                          "left": 82,
+                          "top": 416.4,
+                          "width": 857,
+                          "height": 33.6
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "column",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 118.23,
+                      "height": 406.4
+                    },
+                    "frame": {
+                      "left": 981,
+                      "top": 232.4,
+                      "width": 857,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "hug"
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 118.23,
+                          "height": 21.6
+                        },
+                        "frame": {
+                          "left": 981,
+                          "top": 232.4,
+                          "width": 118.23,
+                          "height": 21.6
+                        },
+                        "snappedFrame": {
+                          "left": 982,
+                          "top": 232,
+                          "width": 118,
+                          "height": 22
+                        },
+                        "children": [],
+                        "text": "TOKEN OUTPUT",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/szqtcj6t",
+                          "id": "9",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.1",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 56,
+                          "height": 364.8
+                        },
+                        "frame": {
+                          "left": 981,
+                          "top": 274,
+                          "width": 857,
+                          "height": 364.8
+                        },
+                        "snappedFrame": {
+                          "left": 981,
+                          "top": 274,
+                          "width": 857,
+                          "height": 364.8
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.1.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 316.8
+                            },
+                            "frame": {
+                              "left": 1009,
+                              "top": 298,
+                              "width": 801,
+                              "height": 316.8
+                            },
+                            "snappedFrame": {
+                              "left": 1010,
+                              "top": 298,
+                              "width": 802,
+                              "height": 318
+                            },
+                            "children": [],
+                            "text": "Token(INT, int)\nToken(IDENTIFIER, x)\nToken(ASSIGN, =)\nToken(INTEGER, 5)\nToken(SEMICOLON, ;)\nToken(PRINT, print)\nToken(LPAREN, ()\nToken(IDENTIFIER, x)\nToken(RPAREN, ))\nToken(SEMICOLON, ;)\nToken(EOF, EOF)",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/b6xkf6dc",
+                              "id": "11",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 28,
+                          "bottom": 24,
+                          "left": 28
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 1009,
+                          "top": 298,
+                          "width": 801,
+                          "height": 316.8
+                        },
+                        "element": {
+                          "aid": "sh/il0rqd4v",
+                          "id": "10",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "gap": 20,
+                    "effectiveGap": 20,
+                    "justifyOffset": 0,
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 981,
+                      "top": 232.4,
+                      "width": 857,
+                      "height": 725.6
+                    },
+                    "items": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "frame": {
+                          "left": 981,
+                          "top": 232.4,
+                          "width": 118.23,
+                          "height": 21.6
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.1",
+                        "frame": {
+                          "left": 981,
+                          "top": 274,
+                          "width": 857,
+                          "height": 364.8
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 42,
+                "rowGap": 0,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                },
+                "columns": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "rows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "columnSizes": [
+                  857,
+                  857
+                ],
+                "rowSizes": [
+                  725.6
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.1.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 857,
+                      "height": 725.6
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "column": 1,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 981,
+                      "top": 232.4,
+                      "width": 857,
+                      "height": 725.6
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 189.12,
+                  "height": 18
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 146.13,
+                      "height": 18
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146.13,
+                      "height": 36
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146,
+                      "height": 36
+                    },
+                    "children": [],
+                    "text": "Compiler Design Project",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/0rqd4vmt",
+                      "id": "12",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 42.99,
+                      "height": 18
+                    },
+                    "frame": {
+                      "left": 1795.01,
+                      "top": 994,
+                      "width": 42.99,
+                      "height": 20
+                    },
+                    "snappedFrame": {
+                      "left": 1796,
+                      "top": 994,
+                      "width": 42,
+                      "height": 20
+                    },
+                    "children": [],
+                    "text": "05 / 17",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/tcj6tova",
+                      "id": "13",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 0,
+                "effectiveGap": 1566.88,
+                "justifyOffset": 0,
+                "align": "center",
+                "justify": "between",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146.13,
+                      "height": 36
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1795.01,
+                      "top": 994,
+                      "width": 42.99,
+                      "height": 20
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 58,
+              "right": 82,
+              "bottom": 58,
+              "left": 82
+            },
+            "columnGap": 0,
+            "rowGap": 28,
+            "alignItems": "stretch",
+            "justifyItems": "stretch",
+            "contentFrame": {
+              "left": 82,
+              "top": 58,
+              "width": 1756,
+              "height": 964
+            },
+            "columns": [
+              {
+                "mode": "fr",
+                "value": 1
+              }
+            ],
+            "rows": [
+              "auto",
+              {
+                "mode": "fr",
+                "value": 1
+              },
+              "auto"
+            ],
+            "autoRows": "auto",
+            "resolvedRows": [
+              "auto",
+              {
+                "mode": "fr",
+                "value": 1
+              },
+              "auto"
+            ],
+            "columnSizes": [
+              1756
+            ],
+            "rowSizes": [
+              146.4,
+              725.6,
+              36
+            ],
+            "cells": [
+              {
+                "path": "0.0.0",
+                "column": 0,
+                "row": 0,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                }
+              },
+              {
+                "path": "0.0.1",
+                "column": 0,
+                "row": 1,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                }
+              },
+              {
+                "path": "0.0.2",
+                "column": 0,
+                "row": 2,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "element": {
+          "aid": "sh/wb2hwfyx",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

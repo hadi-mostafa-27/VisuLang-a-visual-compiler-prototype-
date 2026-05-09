@@ -1,0 +1,19 @@
+// Full MiniLang demo program.
+int x = 5;
+int y = 10;
+int result;
+bool isLarge;
+
+result = x + y * 2;
+isLarge = result > 20;
+
+if (isLarge) {
+    print(result);
+} else {
+    print(0);
+}
+
+while (x < 10) {
+    x = x + 1;
+    print(x);
+}

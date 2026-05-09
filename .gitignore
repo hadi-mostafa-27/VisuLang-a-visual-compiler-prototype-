@@ -1,0 +1,12 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+MiniLangCompiler/tmp/
+*.log
+dist/
+build/
+*.spec

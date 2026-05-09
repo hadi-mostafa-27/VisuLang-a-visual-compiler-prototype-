@@ -1,0 +1,1678 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/n8kbfs",
+    "id": "n8kbfs",
+    "slide": 7,
+    "layoutId": "05d12346-ad23-4cf6-924f-109e7b1d2c7f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "05d12346-ad23-4cf6-924f-109e7b1d2c7f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "1",
+      "name": "background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "rect",
+      "fillColor": "#F6FAF7"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54zidony",
+      "id": "2",
+      "bbox": [
+        82,
+        58,
+        278,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "MINILANG COMPILER / INTERPRETER",
+      "textPreview": "MINILANG COMPILER / INTERPRETER",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MINILANG COMPILER / INTERPRETER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MINILANG COMPILER / INTERPRETER",
+          "runs": [
+            {
+              "index": 1,
+              "text": "MINILANG COMPILER / INTERPRETER",
+              "fontSize": 18,
+              "color": "#2E8B57",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cj6tovah",
+      "id": "3",
+      "name": "slide-title",
+      "bbox": [
+        82,
+        92,
+        1756,
+        70
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Grammar",
+      "textPreview": "Grammar",
+      "resolvedFontSize": 58,
+      "resolvedTextStyle": {
+        "fontSize": 58,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Grammar"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Grammar",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Grammar",
+              "fontSize": 58,
+              "color": "#12343B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap4r65w",
+      "id": "4",
+      "name": "slide-subtitle",
+      "bbox": [
+        82,
+        174,
+        1756,
+        32
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "The grammar defines what valid MiniLang programs look like.",
+      "textPreview": "The grammar defines what valid MiniLang programs look like.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The grammar defines what valid MiniLang programs look like."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The grammar defines what valid MiniLang programs look like.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The grammar defines what valid MiniLang programs look like.",
+              "fontSize": 26,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwb2hwf",
+      "id": "5",
+      "bbox": [
+        82,
+        232.4,
+        864,
+        725.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0"
+      },
+      "geometry": "rect",
+      "fillColor": "#0F2830"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gbq1ory",
+      "id": "6",
+      "bbox": [
+        110,
+        256,
+        808,
+        396
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "program     -> statement*\nstatement   -> declaration\n             | assignment\n             | print_stmt\n             | if_stmt\n             | while_stmt\n\ndeclaration -> type IDENTIFIER\n               (\"=\" expression)? \";\"\ntype        -> \"int\" | \"bool\"\n\nassignment  -> IDENTIFIER \"=\"\n               expression \";\"\nprint_stmt  -> \"print\" \"(\"\n               expression \")\" \";\"",
+      "textPreview": "program     -> statement* | statement   -> declaration |              | assignment |              | print_stmt |              | if_stmt |...",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 15,
+        "lines": [
+          {
+            "index": 1,
+            "text": "program     -> statement*"
+          },
+          {
+            "index": 2,
+            "text": "statement   -> declaration"
+          },
+          {
+            "index": 3,
+            "text": "             | assignment"
+          },
+          {
+            "index": 4,
+            "text": "             | print_stmt"
+          },
+          {
+            "index": 5,
+            "text": "             | if_stmt"
+          },
+          {
+            "index": 6,
+            "text": "             | while_stmt"
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "declaration -> type IDENTIFIER"
+          },
+          {
+            "index": 9,
+            "text": "               (\"=\" expression)? \";\""
+          },
+          {
+            "index": 10,
+            "text": "type        -> \"int\" | \"bool\""
+          },
+          {
+            "index": 11,
+            "text": ""
+          },
+          {
+            "index": 12,
+            "text": "assignment  -> IDENTIFIER \"=\""
+          },
+          {
+            "index": 13,
+            "text": "               expression \";\""
+          },
+          {
+            "index": 14,
+            "text": "print_stmt  -> \"print\" \"(\""
+          },
+          {
+            "index": 15,
+            "text": "               expression \")\" \";\""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "program     -> statement*",
+          "runs": [
+            {
+              "index": 1,
+              "text": "program     -> statement*",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "statement   -> declaration",
+          "runs": [
+            {
+              "index": 1,
+              "text": "statement   -> declaration",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "             | assignment",
+          "runs": [
+            {
+              "index": 1,
+              "text": "             | assignment",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "             | print_stmt",
+          "runs": [
+            {
+              "index": 1,
+              "text": "             | print_stmt",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "             | if_stmt",
+          "runs": [
+            {
+              "index": 1,
+              "text": "             | if_stmt",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "             | while_stmt",
+          "runs": [
+            {
+              "index": 1,
+              "text": "             | while_stmt",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "declaration -> type IDENTIFIER",
+          "runs": [
+            {
+              "index": 1,
+              "text": "declaration -> type IDENTIFIER",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "               (\"=\" expression)? \";\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               (\"=\" expression)? \";\"",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "text": "type        -> \"int\" | \"bool\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "type        -> \"int\" | \"bool\"",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "text": "assignment  -> IDENTIFIER \"=\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "assignment  -> IDENTIFIER \"=\"",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "text": "               expression \";\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               expression \";\"",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "text": "print_stmt  -> \"print\" \"(\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "print_stmt  -> \"print\" \"(\"",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "text": "               expression \")\" \";\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               expression \")\" \";\"",
+              "fontSize": 22,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "7",
+      "bbox": [
+        974,
+        232.4,
+        864,
+        725.6
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#0F2830"
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "8",
+      "bbox": [
+        1002,
+        256,
+        808,
+        384
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0"
+      },
+      "geometry": "rect",
+      "text": "if_stmt     -> \"if\" \"(\" expression \")\"\n               block (\"else\" block)?\nwhile_stmt  -> \"while\" \"(\" expression \")\"\n               block\nblock       -> \"{\" statement* \"}\"\n\nexpression  -> equality\nequality    -> comparison\n               ((\"==\" | \"!=\") comparison)*\ncomparison  -> term\n               ((\"<\" | \">\" | \"<=\" | \">=\") term)*\nterm        -> factor ((\"+\" | \"-\") factor)*\nfactor      -> unary ((\"*\" | \"/\") unary)*\nunary       -> \"-\" unary | primary\nprimary     -> INTEGER | true | false\n             | IDENTIFIER | \"(\" expression \")\"",
+      "textPreview": "if_stmt     -> \"if\" \"(\" expression \")\" |                block (\"else\" block)? | while_stmt  -> \"while\" \"(\" expression \")\" |              ...",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 16,
+        "lines": [
+          {
+            "index": 1,
+            "text": "if_stmt     -> \"if\" \"(\" expression \")\""
+          },
+          {
+            "index": 2,
+            "text": "               block (\"else\" block)?"
+          },
+          {
+            "index": 3,
+            "text": "while_stmt  -> \"while\" \"(\" expression \")\""
+          },
+          {
+            "index": 4,
+            "text": "               block"
+          },
+          {
+            "index": 5,
+            "text": "block       -> \"{\" statement* \"}\""
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "expression  -> equality"
+          },
+          {
+            "index": 8,
+            "text": "equality    -> comparison"
+          },
+          {
+            "index": 9,
+            "text": "               ((\"==\" | \"!=\") comparison)*"
+          },
+          {
+            "index": 10,
+            "text": "comparison  -> term"
+          },
+          {
+            "index": 11,
+            "text": "               ((\"<\" | \">\" | \"<=\" | \">=\") term)*"
+          },
+          {
+            "index": 12,
+            "text": "term        -> factor ((\"+\" | \"-\") factor)*"
+          },
+          {
+            "index": 13,
+            "text": "factor      -> unary ((\"*\" | \"/\") unary)*"
+          },
+          {
+            "index": 14,
+            "text": "unary       -> \"-\" unary | primary"
+          },
+          {
+            "index": 15,
+            "text": "primary     -> INTEGER | true | false"
+          },
+          {
+            "index": 16,
+            "text": "             | IDENTIFIER | \"(\" expression \")\""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "if_stmt     -> \"if\" \"(\" expression \")\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "if_stmt     -> \"if\" \"(\" expression \")\"",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "               block (\"else\" block)?",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               block (\"else\" block)?",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "while_stmt  -> \"while\" \"(\" expression \")\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "while_stmt  -> \"while\" \"(\" expression \")\"",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "               block",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               block",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "block       -> \"{\" statement* \"}\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "block       -> \"{\" statement* \"}\"",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "expression  -> equality",
+          "runs": [
+            {
+              "index": 1,
+              "text": "expression  -> equality",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "text": "equality    -> comparison",
+          "runs": [
+            {
+              "index": 1,
+              "text": "equality    -> comparison",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "text": "               ((\"==\" | \"!=\") comparison)*",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               ((\"==\" | \"!=\") comparison)*",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "text": "comparison  -> term",
+          "runs": [
+            {
+              "index": 1,
+              "text": "comparison  -> term",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "text": "               ((\"<\" | \">\" | \"<=\" | \">=\") term)*",
+          "runs": [
+            {
+              "index": 1,
+              "text": "               ((\"<\" | \">\" | \"<=\" | \">=\") term)*",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "text": "term        -> factor ((\"+\" | \"-\") factor)*",
+          "runs": [
+            {
+              "index": 1,
+              "text": "term        -> factor ((\"+\" | \"-\") factor)*",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "text": "factor      -> unary ((\"*\" | \"/\") unary)*",
+          "runs": [
+            {
+              "index": 1,
+              "text": "factor      -> unary ((\"*\" | \"/\") unary)*",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "text": "unary       -> \"-\" unary | primary",
+          "runs": [
+            {
+              "index": 1,
+              "text": "unary       -> \"-\" unary | primary",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "text": "primary     -> INTEGER | true | false",
+          "runs": [
+            {
+              "index": 1,
+              "text": "primary     -> INTEGER | true | false",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "text": "             | IDENTIFIER | \"(\" expression \")\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "             | IDENTIFIER | \"(\" expression \")\"",
+              "fontSize": 20,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "9",
+      "bbox": [
+        82,
+        986,
+        146,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Compiler Design Project",
+      "textPreview": "Compiler Design Project",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Compiler Design"
+          },
+          {
+            "index": 2,
+            "text": "Project"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Compiler Design Project",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Compiler Design Project",
+              "fontSize": 15,
+              "color": "#6A7A78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "10",
+      "bbox": [
+        1796,
+        994,
+        42,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "07 / 17",
+      "textPreview": "07 / 17",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07 /"
+          },
+          {
+            "index": 2,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07 / 17",
+          "runs": [
+            {
+              "index": 1,
+              "text": "07 / 17",
+              "fontSize": 15,
+              "color": "#6A7A78"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 0,
+          "height": 0
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "grid",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 164,
+              "height": 336.4
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 1920,
+              "height": 1080
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 277.98,
+                  "height": 146.4
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 277.98,
+                      "height": 21.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 277.98,
+                      "height": 21.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 278,
+                      "height": 22
+                    },
+                    "children": [],
+                    "text": "MINILANG COMPILER / INTERPRETER",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/54zidony",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 69.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 91.6,
+                      "width": 1756,
+                      "height": 69.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 92,
+                      "width": 1756,
+                      "height": 70
+                    },
+                    "children": [],
+                    "text": "Grammar",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/cj6tovah",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.2",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 31.2
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 173.2,
+                      "width": 1756,
+                      "height": 31.2
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 174,
+                      "width": 1756,
+                      "height": 32
+                    },
+                    "children": [],
+                    "text": "The grammar defines what valid MiniLang programs look like.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/nap4r65w",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 277.98,
+                      "height": 21.6
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 82,
+                      "top": 91.6,
+                      "width": 1756,
+                      "height": 69.6
+                    }
+                  },
+                  {
+                    "path": "0.0.0.2",
+                    "frame": {
+                      "left": 82,
+                      "top": 173.2,
+                      "width": 1756,
+                      "height": 31.2
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "grid",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 28,
+                  "height": 0
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "panel",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 56,
+                      "height": 444
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 864,
+                      "height": 725.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 864,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 396
+                        },
+                        "frame": {
+                          "left": 110,
+                          "top": 256.4,
+                          "width": 808,
+                          "height": 396
+                        },
+                        "snappedFrame": {
+                          "left": 110,
+                          "top": 256,
+                          "width": 808,
+                          "height": 396
+                        },
+                        "children": [],
+                        "text": "program     -> statement*\nstatement   -> declaration\n             | assignment\n             | print_stmt\n             | if_stmt\n             | while_stmt\n\ndeclaration -> type IDENTIFIER\n               (\"=\" expression)? \";\"\ntype        -> \"int\" | \"bool\"\n\nassignment  -> IDENTIFIER \"=\"\n               expression \";\"\nprint_stmt  -> \"print\" \"(\"\n               expression \")\" \";\"",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/5gbq1ory",
+                          "id": "6",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 28,
+                      "bottom": 24,
+                      "left": 28
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 110,
+                      "top": 256.4,
+                      "width": 808,
+                      "height": 677.6
+                    },
+                    "element": {
+                      "aid": "sh/upwb2hwf",
+                      "id": "5",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "panel",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 56,
+                      "height": 432
+                    },
+                    "frame": {
+                      "left": 974,
+                      "top": 232.4,
+                      "width": 864,
+                      "height": 725.6
+                    },
+                    "snappedFrame": {
+                      "left": 974,
+                      "top": 232.4,
+                      "width": 864,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 384
+                        },
+                        "frame": {
+                          "left": 1002,
+                          "top": 256.4,
+                          "width": 808,
+                          "height": 384
+                        },
+                        "snappedFrame": {
+                          "left": 1002,
+                          "top": 256,
+                          "width": 808,
+                          "height": 384
+                        },
+                        "children": [],
+                        "text": "if_stmt     -> \"if\" \"(\" expression \")\"\n               block (\"else\" block)?\nwhile_stmt  -> \"while\" \"(\" expression \")\"\n               block\nblock       -> \"{\" statement* \"}\"\n\nexpression  -> equality\nequality    -> comparison\n               ((\"==\" | \"!=\") comparison)*\ncomparison  -> term\n               ((\"<\" | \">\" | \"<=\" | \">=\") term)*\nterm        -> factor ((\"+\" | \"-\") factor)*\nfactor      -> unary ((\"*\" | \"/\") unary)*\nunary       -> \"-\" unary | primary\nprimary     -> INTEGER | true | false\n             | IDENTIFIER | \"(\" expression \")\"",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/jm1cfa9w",
+                          "id": "8",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 24,
+                      "right": 28,
+                      "bottom": 24,
+                      "left": 28
+                    },
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 1002,
+                      "top": 256.4,
+                      "width": 808,
+                      "height": 677.6
+                    },
+                    "element": {
+                      "aid": "sh/cvixczed",
+                      "id": "7",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 28,
+                "rowGap": 0,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                },
+                "columns": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "rows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "columnSizes": [
+                  864,
+                  864
+                ],
+                "rowSizes": [
+                  725.6
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.1.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 864,
+                      "height": 725.6
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "column": 1,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 974,
+                      "top": 232.4,
+                      "width": 864,
+                      "height": 725.6
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 189.12,
+                  "height": 18
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 146.13,
+                      "height": 18
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146.13,
+                      "height": 36
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146,
+                      "height": 36
+                    },
+                    "children": [],
+                    "text": "Compiler Design Project",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/u18jqh0f",
+                      "id": "9",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 42.99,
+                      "height": 18
+                    },
+                    "frame": {
+                      "left": 1795.01,
+                      "top": 994,
+                      "width": 42.99,
+                      "height": 20
+                    },
+                    "snappedFrame": {
+                      "left": 1796,
+                      "top": 994,
+                      "width": 42,
+                      "height": 20
+                    },
+                    "children": [],
+                    "text": "07 / 17",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/w3m94fu1",
+                      "id": "10",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 0,
+                "effectiveGap": 1566.88,
+                "justifyOffset": 0,
+                "align": "center",
+                "justify": "between",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146.13,
+                      "height": 36
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1795.01,
+                      "top": 994,
+                      "width": 42.99,
+                      "height": 20
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 58,
+              "right": 82,
+              "bottom": 58,
+              "left": 82
+            },
+            "columnGap": 0,
+            "rowGap": 28,
+            "alignItems": "stretch",
+            "justifyItems": "stretch",
+            "contentFrame": {
+              "left": 82,
+              "top": 58,
+              "width": 1756,
+              "height": 964
+            },
+            "columns": [
+              {
+                "mode": "fr",
+                "value": 1
+              }
+            ],
+            "rows": [
+              "auto",
+              {
+                "mode": "fr",
+                "value": 1
+              },
+              "auto"
+            ],
+            "autoRows": "auto",
+            "resolvedRows": [
+              "auto",
+              {
+                "mode": "fr",
+                "value": 1
+              },
+              "auto"
+            ],
+            "columnSizes": [
+              1756
+            ],
+            "rowSizes": [
+              146.4,
+              725.6,
+              36
+            ],
+            "cells": [
+              {
+                "path": "0.0.0",
+                "column": 0,
+                "row": 0,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                }
+              },
+              {
+                "path": "0.0.1",
+                "column": 0,
+                "row": 1,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                }
+              },
+              {
+                "path": "0.0.2",
+                "column": 0,
+                "row": 2,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "element": {
+          "aid": "sh/udg7adsj",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}

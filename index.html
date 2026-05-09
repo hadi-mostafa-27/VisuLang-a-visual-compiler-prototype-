@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuLang | Interactive Compiler Playground</title>
+    <meta name="description" content="Explore the inner workings of a compiler with VisuLang. An interactive playground for MiniLang.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-group">
+                <h1>VisuLang</h1>
+                <p>Interactive Compiler Education Platform</p>
+            </div>
+            <a href="#" id="repo-link" class="github-link">View on GitHub</a>
+        </header>
+
+        <div class="pipeline" id="pipeline">
+            <div class="stage-card" id="stage-source">
+                <h3>Source</h3>
+                <span>Input Code</span>
+            </div>
+            <div class="stage-card" id="stage-lexer">
+                <h3>Lexer</h3>
+                <span>Tokenization</span>
+            </div>
+            <div class="stage-card" id="stage-parser">
+                <h3>Parser</h3>
+                <span>Syntax Tree</span>
+            </div>
+            <div class="stage-card" id="stage-semantic">
+                <h3>Semantic</h3>
+                <span>Type Checking</span>
+            </div>
+            <div class="stage-card" id="stage-ir">
+                <h3>IR</h3>
+                <span>Intermediate</span>
+            </div>
+            <div class="stage-card" id="stage-optimize">
+                <h3>Optimize</h3>
+                <span>Optimization</span>
+            </div>
+            <div class="stage-card" id="stage-machine">
+                <h3>Machine</h3>
+                <span>Lowering</span>
+            </div>
+            <div class="stage-card" id="stage-output">
+                <h3>Output</h3>
+                <span>Execution</span>
+            </div>
+        </div>
+
+        <main class="main-grid">
+            <section class="card editor-card">
+                <div class="card-header">
+                    <h2>MiniLang Editor</h2>
+                    <span id="status-badge" style="font-size: 0.8rem; color: var(--text-dim);">Ready</span>
+                </div>
+                <div class="editor-container">
+                    <textarea id="code-editor" spellcheck="false">int x = 5;
+int y = 10;
+int result;
+
+result = x + y * 2;
+
+if (result > 20) {
+    print(result);
+} else {
+    print(0);
+}
+
+while (x < 10) {
+    x = x + 1;
+    print(x);
+}</textarea>
+                </div>
+                <div class="controls">
+                    <button id="run-btn" class="btn-primary">Compile & Run</button>
+                    <button id="step-btn" class="btn-ghost">Step by Step</button>
+                    <button id="clear-btn" class="btn-ghost">Clear</button>
+                </div>
+            </section>
+
+            <section class="card results-card">
+                <div class="tabs">
+                    <div class="tab active" data-target="tokens">Tokens</div>
+                    <div class="tab" data-target="ast">AST</div>
+                    <div class="tab" data-target="semantic">Semantic</div>
+                    <div class="tab" data-target="ir">IR/Machine</div>
+                    <div class="tab" data-target="output">Output</div>
+                </div>
+                <div id="tokens-view" class="result-view fade-in">
+                    <table class="token-table">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Value</th>
+                                <th>Line</th>
+                            </tr>
+                        </thead>
+                        <tbody id="token-body">
+                            <!-- Tokens will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div id="ast-view" class="result-view fade-in" style="display: none;">
+                    <!-- AST Tree will be inserted here -->
+                </div>
+                <div id="semantic-view" class="result-view fade-in" style="display: none;">
+                    <!-- Semantic analysis will be inserted here -->
+                </div>
+                <div id="ir-view" class="result-view fade-in" style="display: none;">
+                    <!-- IR and Machine code -->
+                </div>
+                <div id="output-view" class="result-view fade-in" style="display: none;">
+                    <!-- Program output -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

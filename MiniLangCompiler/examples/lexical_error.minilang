@@ -1,0 +1,5 @@
+int x = 5;
+print(x);
+
+// The @ character is not part of MiniLang.
+@

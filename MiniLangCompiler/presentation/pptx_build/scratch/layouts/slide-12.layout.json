@@ -1,0 +1,2326 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ahj8t6",
+    "id": "ahj8t6",
+    "slide": 12,
+    "layoutId": "05d12346-ad23-4cf6-924f-109e7b1d2c7f",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "05d12346-ad23-4cf6-924f-109e7b1d2c7f",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "fed05030-c669-4b41-ac29-f8cb92f1adfe",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "1",
+      "name": "background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0"
+      },
+      "geometry": "rect",
+      "fillColor": "#F6FAF7"
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "2",
+      "bbox": [
+        82,
+        58,
+        278,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.0"
+      },
+      "geometry": "rect",
+      "text": "MINILANG COMPILER / INTERPRETER",
+      "textPreview": "MINILANG COMPILER / INTERPRETER",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MINILANG COMPILER / INTERPRETER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MINILANG COMPILER / INTERPRETER",
+          "runs": [
+            {
+              "index": 1,
+              "text": "MINILANG COMPILER / INTERPRETER",
+              "fontSize": 18,
+              "color": "#2E8B57",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "3",
+      "name": "slide-title",
+      "bbox": [
+        82,
+        92,
+        1756,
+        70
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.1"
+      },
+      "geometry": "rect",
+      "text": "Error Handling",
+      "textPreview": "Error Handling",
+      "resolvedFontSize": 58,
+      "resolvedTextStyle": {
+        "fontSize": 58,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Error Handling"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Error Handling",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Error Handling",
+              "fontSize": 58,
+              "color": "#12343B",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "4",
+      "name": "slide-subtitle",
+      "bbox": [
+        82,
+        174,
+        1756,
+        32
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.0.2"
+      },
+      "geometry": "rect",
+      "text": "Different mistakes are caught by different phases.",
+      "textPreview": "Different mistakes are caught by different phases.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Different mistakes are caught by different phases."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Different mistakes are caught by different phases.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Different mistakes are caught by different phases.",
+              "fontSize": 26,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "5",
+      "bbox": [
+        82,
+        232,
+        114,
+        44
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.0"
+      },
+      "geometry": "rect",
+      "text": "LEXICAL ERROR",
+      "textPreview": "LEXICAL ERROR",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LEXICAL"
+          },
+          {
+            "index": 2,
+            "text": "ERROR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LEXICAL ERROR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "LEXICAL ERROR",
+              "fontSize": 18,
+              "color": "#D65050",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "6",
+      "bbox": [
+        82,
+        293.6,
+        569.33,
+        168
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#311A1A"
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "7",
+      "bbox": [
+        110,
+        318,
+        514,
+        120
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.1.0"
+      },
+      "geometry": "rect",
+      "text": "@\n\nLexical Error:\nInvalid character '@'",
+      "textPreview": "@ |  | Lexical Error: | Invalid character '@'",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "Lexical Error:"
+          },
+          {
+            "index": 4,
+            "text": "Invalid character '@'"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@",
+          "runs": [
+            {
+              "index": 1,
+              "text": "@",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Lexical Error:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lexical Error:",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Invalid character '@'",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Invalid character '@'",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wra5gbq1",
+      "id": "8",
+      "bbox": [
+        82,
+        480,
+        570,
+        30
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.0.2"
+      },
+      "geometry": "rect",
+      "text": "Invalid characters are rejected before parsing starts.",
+      "textPreview": "Invalid characters are rejected before parsing starts.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Invalid characters are rejected before parsing starts."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Invalid characters are rejected before parsing starts.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Invalid characters are rejected before parsing starts.",
+              "fontSize": 24,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lc7u54zi",
+      "id": "9",
+      "bbox": [
+        676,
+        232,
+        112,
+        44
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.0"
+      },
+      "geometry": "rect",
+      "text": "SYNTAX ERROR",
+      "textPreview": "SYNTAX ERROR",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SYNTAX"
+          },
+          {
+            "index": 2,
+            "text": "ERROR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SYNTAX ERROR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "SYNTAX ERROR",
+              "fontSize": 18,
+              "color": "#3C7DAD",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "10",
+      "bbox": [
+        675.33,
+        293.6,
+        569.33,
+        198
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#102B36"
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "11",
+      "bbox": [
+        704,
+        318,
+        514,
+        150
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.1.0"
+      },
+      "geometry": "rect",
+      "text": "int x = 5\nprint(x);\n\nSyntax Error:\nExpected ';'",
+      "textPreview": "int x = 5 | print(x); |  | Syntax Error: | Expected ';'",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "int x = 5"
+          },
+          {
+            "index": 2,
+            "text": "print(x);"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "Syntax Error:"
+          },
+          {
+            "index": 5,
+            "text": "Expected ';'"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "int x = 5",
+          "runs": [
+            {
+              "index": 1,
+              "text": "int x = 5",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "print(x);",
+          "runs": [
+            {
+              "index": 1,
+              "text": "print(x);",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Syntax Error:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Syntax Error:",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Expected ';'",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Expected ';'",
+              "fontSize": 25,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "12",
+      "bbox": [
+        676,
+        510,
+        570,
+        30
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.1.2"
+      },
+      "geometry": "rect",
+      "text": "Bad grammar is caught while building the AST.",
+      "textPreview": "Bad grammar is caught while building the AST.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bad grammar is caught while building the AST."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bad grammar is caught while building the AST.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bad grammar is caught while building the AST.",
+              "fontSize": 24,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "13",
+      "bbox": [
+        1268,
+        232,
+        134,
+        22
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.0"
+      },
+      "geometry": "rect",
+      "text": "SEMANTIC ERROR",
+      "textPreview": "SEMANTIC ERROR",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SEMANTIC"
+          },
+          {
+            "index": 2,
+            "text": "ERROR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SEMANTIC ERROR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "SEMANTIC ERROR",
+              "fontSize": 18,
+              "color": "#5B4B8A",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "14",
+      "bbox": [
+        1268.67,
+        272,
+        569.33,
+        220.8
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.1"
+      },
+      "geometry": "rect",
+      "fillColor": "#241D3A"
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "15",
+      "bbox": [
+        1296,
+        296,
+        514,
+        174
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.1.0"
+      },
+      "geometry": "rect",
+      "text": "int age = 20;\nage = true;\n\nSemantic Error:\nCannot assign bool\nto int variable 'age'",
+      "textPreview": "int age = 20; | age = true; |  | Semantic Error: | Cannot assign bool | to int variable 'age'",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "int age = 20;"
+          },
+          {
+            "index": 2,
+            "text": "age = true;"
+          },
+          {
+            "index": 3,
+            "text": ""
+          },
+          {
+            "index": 4,
+            "text": "Semantic Error:"
+          },
+          {
+            "index": 5,
+            "text": "Cannot assign bool"
+          },
+          {
+            "index": 6,
+            "text": "to int variable 'age'"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "int age = 20;",
+          "runs": [
+            {
+              "index": 1,
+              "text": "int age = 20;",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "age = true;",
+          "runs": [
+            {
+              "index": 1,
+              "text": "age = true;",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Semantic Error:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Semantic Error:",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Cannot assign bool",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cannot assign bool",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "to int variable 'age'",
+          "runs": [
+            {
+              "index": 1,
+              "text": "to int variable 'age'",
+              "fontSize": 24,
+              "color": "#EAF8F0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re1w7mp0",
+      "id": "16",
+      "bbox": [
+        1268,
+        510,
+        570,
+        30
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.1.2.2"
+      },
+      "geometry": "rect",
+      "text": "Incorrect meaning is caught after syntax is valid.",
+      "textPreview": "Incorrect meaning is caught after syntax is valid.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Incorrect meaning is caught after syntax is valid."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Incorrect meaning is caught after syntax is valid.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Incorrect meaning is caught after syntax is valid.",
+              "fontSize": 24,
+              "color": "#31535B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2t83itgf",
+      "id": "17",
+      "bbox": [
+        82,
+        986,
+        146,
+        36
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.0"
+      },
+      "geometry": "rect",
+      "text": "Compiler Design Project",
+      "textPreview": "Compiler Design Project",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Compiler Design"
+          },
+          {
+            "index": 2,
+            "text": "Project"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Compiler Design Project",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Compiler Design Project",
+              "fontSize": 15,
+              "color": "#6A7A78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "18",
+      "bbox": [
+        1796,
+        994,
+        42,
+        20
+      ],
+      "composeSource": {
+        "run": 1,
+        "path": "0.0.2.1"
+      },
+      "geometry": "rect",
+      "text": "12 / 17",
+      "textPreview": "12 / 17",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12 /"
+          },
+          {
+            "index": 2,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12 / 17",
+          "runs": [
+            {
+              "index": 1,
+              "text": "12 / 17",
+              "fontSize": 15,
+              "color": "#6A7A78"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": [
+    {
+      "index": 1,
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "baseUnit": 8,
+      "root": {
+        "path": "0",
+        "kind": "panel",
+        "name": "background",
+        "requestedSize": {
+          "width": {
+            "mode": "fill",
+            "value": 1
+          },
+          "height": {
+            "mode": "fill",
+            "value": 1
+          }
+        },
+        "intrinsicSize": {
+          "width": 0,
+          "height": 0
+        },
+        "frame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "snappedFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "children": [
+          {
+            "path": "0.0",
+            "kind": "grid",
+            "name": "slide-root",
+            "requestedSize": {
+              "width": {
+                "mode": "fill",
+                "value": 1
+              },
+              "height": {
+                "mode": "fill",
+                "value": 1
+              }
+            },
+            "intrinsicSize": {
+              "width": 164,
+              "height": 336.4
+            },
+            "frame": {
+              "left": 0,
+              "top": 0,
+              "width": 1920,
+              "height": 1080
+            },
+            "children": [
+              {
+                "path": "0.0.0",
+                "kind": "column",
+                "name": "title-stack",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 277.98,
+                  "height": 146.4
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                },
+                "children": [
+                  {
+                    "path": "0.0.0.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 277.98,
+                      "height": 21.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 277.98,
+                      "height": 21.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 278,
+                      "height": 22
+                    },
+                    "children": [],
+                    "text": "MINILANG COMPILER / INTERPRETER",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/e1w7mp0b",
+                      "id": "2",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "kind": "text",
+                    "name": "slide-title",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 69.6
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 91.6,
+                      "width": 1756,
+                      "height": 69.6
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 92,
+                      "width": 1756,
+                      "height": 70
+                    },
+                    "children": [],
+                    "text": "Error Handling",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/7mp0bi9s",
+                      "id": "3",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.0.2",
+                    "kind": "text",
+                    "name": "slide-subtitle",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 0,
+                      "height": 31.2
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 173.2,
+                      "width": 1756,
+                      "height": 31.2
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 174,
+                      "width": 1756,
+                      "height": 32
+                    },
+                    "children": [],
+                    "text": "Different mistakes are caught by different phases.",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/wval87ed",
+                      "id": "4",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 12,
+                "effectiveGap": 12,
+                "justifyOffset": 0,
+                "align": "start",
+                "justify": "start",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                },
+                "items": [
+                  {
+                    "path": "0.0.0.0",
+                    "frame": {
+                      "left": 82,
+                      "top": 58,
+                      "width": 277.98,
+                      "height": 21.6
+                    }
+                  },
+                  {
+                    "path": "0.0.0.1",
+                    "frame": {
+                      "left": 82,
+                      "top": 91.6,
+                      "width": 1756,
+                      "height": 69.6
+                    }
+                  },
+                  {
+                    "path": "0.0.0.2",
+                    "frame": {
+                      "left": 82,
+                      "top": 173.2,
+                      "width": 1756,
+                      "height": 31.2
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.1",
+                "kind": "grid",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "fill",
+                    "value": 1
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 48,
+                  "height": 0
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                },
+                "children": [
+                  {
+                    "path": "0.0.1.0",
+                    "kind": "column",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 114.4,
+                      "height": 254.4
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "hug"
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 114.4,
+                          "height": 21.6
+                        },
+                        "frame": {
+                          "left": 82,
+                          "top": 232.4,
+                          "width": 114.4,
+                          "height": 43.2
+                        },
+                        "snappedFrame": {
+                          "left": 82,
+                          "top": 232,
+                          "width": 114,
+                          "height": 44
+                        },
+                        "children": [],
+                        "text": "LEXICAL ERROR",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/pg3ex0nu",
+                          "id": "5",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.1",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 56,
+                          "height": 168
+                        },
+                        "frame": {
+                          "left": 82,
+                          "top": 293.6,
+                          "width": 569.33,
+                          "height": 168
+                        },
+                        "snappedFrame": {
+                          "left": 82,
+                          "top": 293.6,
+                          "width": 569.33,
+                          "height": 168
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.0.1.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 120
+                            },
+                            "frame": {
+                              "left": 110,
+                              "top": 317.6,
+                              "width": 513.33,
+                              "height": 120
+                            },
+                            "snappedFrame": {
+                              "left": 110,
+                              "top": 318,
+                              "width": 514,
+                              "height": 120
+                            },
+                            "children": [],
+                            "text": "@\n\nLexical Error:\nInvalid character '@'",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/7adsji5s",
+                              "id": "7",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 28,
+                          "bottom": 24,
+                          "left": 28
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 110,
+                          "top": 317.6,
+                          "width": 513.33,
+                          "height": 120
+                        },
+                        "element": {
+                          "aid": "sh/epkzupwb",
+                          "id": "6",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.2",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 28.8
+                        },
+                        "frame": {
+                          "left": 82,
+                          "top": 479.6,
+                          "width": 569.33,
+                          "height": 28.8
+                        },
+                        "snappedFrame": {
+                          "left": 82,
+                          "top": 480,
+                          "width": 570,
+                          "height": 30
+                        },
+                        "children": [],
+                        "text": "Invalid characters are rejected before parsing starts.",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/wra5gbq1",
+                          "id": "8",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "gap": 18,
+                    "effectiveGap": 18,
+                    "justifyOffset": 0,
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    },
+                    "items": [
+                      {
+                        "path": "0.0.1.0.0",
+                        "frame": {
+                          "left": 82,
+                          "top": 232.4,
+                          "width": 114.4,
+                          "height": 43.2
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.1",
+                        "frame": {
+                          "left": 82,
+                          "top": 293.6,
+                          "width": 569.33,
+                          "height": 168
+                        }
+                      },
+                      {
+                        "path": "0.0.1.0.2",
+                        "frame": {
+                          "left": 82,
+                          "top": 479.6,
+                          "width": 569.33,
+                          "height": 28.8
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "kind": "column",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 112.94,
+                      "height": 284.4
+                    },
+                    "frame": {
+                      "left": 675.33,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "hug"
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 112.94,
+                          "height": 21.6
+                        },
+                        "frame": {
+                          "left": 675.33,
+                          "top": 232.4,
+                          "width": 112.94,
+                          "height": 43.2
+                        },
+                        "snappedFrame": {
+                          "left": 676,
+                          "top": 232,
+                          "width": 112,
+                          "height": 44
+                        },
+                        "children": [],
+                        "text": "SYNTAX ERROR",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/lc7u54zi",
+                          "id": "9",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.1",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 56,
+                          "height": 198
+                        },
+                        "frame": {
+                          "left": 675.33,
+                          "top": 293.6,
+                          "width": 569.33,
+                          "height": 198
+                        },
+                        "snappedFrame": {
+                          "left": 675.33,
+                          "top": 293.6,
+                          "width": 569.33,
+                          "height": 198
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.1.1.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 150
+                            },
+                            "frame": {
+                              "left": 703.33,
+                              "top": 317.6,
+                              "width": 513.33,
+                              "height": 150
+                            },
+                            "snappedFrame": {
+                              "left": 704,
+                              "top": 318,
+                              "width": 514,
+                              "height": 150
+                            },
+                            "children": [],
+                            "text": "int x = 5\nprint(x);\n\nSyntax Error:\nExpected ';'",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/kb6xkf6d",
+                              "id": "11",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 28,
+                          "bottom": 24,
+                          "left": 28
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 703.33,
+                          "top": 317.6,
+                          "width": 513.33,
+                          "height": 150
+                        },
+                        "element": {
+                          "aid": "sh/9w3m94fu",
+                          "id": "10",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.2",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 28.8
+                        },
+                        "frame": {
+                          "left": 675.33,
+                          "top": 509.6,
+                          "width": 569.33,
+                          "height": 28.8
+                        },
+                        "snappedFrame": {
+                          "left": 676,
+                          "top": 510,
+                          "width": 570,
+                          "height": 30
+                        },
+                        "children": [],
+                        "text": "Bad grammar is caught while building the AST.",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/rqd4vmtw",
+                          "id": "12",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "gap": 18,
+                    "effectiveGap": 18,
+                    "justifyOffset": 0,
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 675.33,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    },
+                    "items": [
+                      {
+                        "path": "0.0.1.1.0",
+                        "frame": {
+                          "left": 675.33,
+                          "top": 232.4,
+                          "width": 112.94,
+                          "height": 43.2
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.1",
+                        "frame": {
+                          "left": 675.33,
+                          "top": 293.6,
+                          "width": 569.33,
+                          "height": 198
+                        }
+                      },
+                      {
+                        "path": "0.0.1.1.2",
+                        "frame": {
+                          "left": 675.33,
+                          "top": 509.6,
+                          "width": 569.33,
+                          "height": 28.8
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "path": "0.0.1.2",
+                    "kind": "column",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "fill",
+                        "value": 1
+                      },
+                      "height": {
+                        "mode": "fill",
+                        "value": 1
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 134.28,
+                      "height": 307.2
+                    },
+                    "frame": {
+                      "left": 1268.67,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    },
+                    "children": [
+                      {
+                        "path": "0.0.1.2.0",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "hug"
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 134.28,
+                          "height": 21.6
+                        },
+                        "frame": {
+                          "left": 1268.67,
+                          "top": 232.4,
+                          "width": 134.28,
+                          "height": 21.6
+                        },
+                        "snappedFrame": {
+                          "left": 1268,
+                          "top": 232,
+                          "width": 134,
+                          "height": 22
+                        },
+                        "children": [],
+                        "text": "SEMANTIC ERROR",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/25kb6xkf",
+                          "id": "13",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.2.1",
+                        "kind": "panel",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 56,
+                          "height": 220.8
+                        },
+                        "frame": {
+                          "left": 1268.67,
+                          "top": 272,
+                          "width": 569.33,
+                          "height": 220.8
+                        },
+                        "snappedFrame": {
+                          "left": 1268.67,
+                          "top": 272,
+                          "width": 569.33,
+                          "height": 220.8
+                        },
+                        "children": [
+                          {
+                            "path": "0.0.1.2.1.0",
+                            "kind": "text",
+                            "requestedSize": {
+                              "width": {
+                                "mode": "fill",
+                                "value": 1
+                              },
+                              "height": {
+                                "mode": "hug"
+                              }
+                            },
+                            "intrinsicSize": {
+                              "width": 0,
+                              "height": 172.8
+                            },
+                            "frame": {
+                              "left": 1296.67,
+                              "top": 296,
+                              "width": 513.33,
+                              "height": 172.8
+                            },
+                            "snappedFrame": {
+                              "left": 1296,
+                              "top": 296,
+                              "width": 514,
+                              "height": 174
+                            },
+                            "children": [],
+                            "text": "int age = 20;\nage = true;\n\nSemantic Error:\nCannot assign bool\nto int variable 'age'",
+                            "transform": "none",
+                            "element": {
+                              "aid": "sh/kzupwb2h",
+                              "id": "15",
+                              "kind": "shape"
+                            }
+                          }
+                        ],
+                        "padding": {
+                          "top": 24,
+                          "right": 28,
+                          "bottom": 24,
+                          "left": 28
+                        },
+                        "align": "start",
+                        "justify": "start",
+                        "contentFrame": {
+                          "left": 1296.67,
+                          "top": 296,
+                          "width": 513.33,
+                          "height": 172.8
+                        },
+                        "element": {
+                          "aid": "sh/9knih4by",
+                          "id": "14",
+                          "kind": "shape"
+                        }
+                      },
+                      {
+                        "path": "0.0.1.2.2",
+                        "kind": "text",
+                        "requestedSize": {
+                          "width": {
+                            "mode": "fill",
+                            "value": 1
+                          },
+                          "height": {
+                            "mode": "hug"
+                          }
+                        },
+                        "intrinsicSize": {
+                          "width": 0,
+                          "height": 28.8
+                        },
+                        "frame": {
+                          "left": 1268.67,
+                          "top": 510.8,
+                          "width": 569.33,
+                          "height": 28.8
+                        },
+                        "snappedFrame": {
+                          "left": 1268,
+                          "top": 510,
+                          "width": 570,
+                          "height": 30
+                        },
+                        "children": [],
+                        "text": "Incorrect meaning is caught after syntax is valid.",
+                        "transform": "none",
+                        "element": {
+                          "aid": "sh/re1w7mp0",
+                          "id": "16",
+                          "kind": "shape"
+                        }
+                      }
+                    ],
+                    "padding": {
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0
+                    },
+                    "gap": 18,
+                    "effectiveGap": 18,
+                    "justifyOffset": 0,
+                    "align": "start",
+                    "justify": "start",
+                    "contentFrame": {
+                      "left": 1268.67,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    },
+                    "items": [
+                      {
+                        "path": "0.0.1.2.0",
+                        "frame": {
+                          "left": 1268.67,
+                          "top": 232.4,
+                          "width": 134.28,
+                          "height": 21.6
+                        }
+                      },
+                      {
+                        "path": "0.0.1.2.1",
+                        "frame": {
+                          "left": 1268.67,
+                          "top": 272,
+                          "width": 569.33,
+                          "height": 220.8
+                        }
+                      },
+                      {
+                        "path": "0.0.1.2.2",
+                        "frame": {
+                          "left": 1268.67,
+                          "top": 510.8,
+                          "width": 569.33,
+                          "height": 28.8
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "columnGap": 24,
+                "rowGap": 0,
+                "alignItems": "stretch",
+                "justifyItems": "stretch",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                },
+                "columns": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  },
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "rows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "autoRows": "auto",
+                "resolvedRows": [
+                  {
+                    "mode": "fr",
+                    "value": 1
+                  }
+                ],
+                "columnSizes": [
+                  569.33,
+                  569.33,
+                  569.33
+                ],
+                "rowSizes": [
+                  725.6
+                ],
+                "cells": [
+                  {
+                    "path": "0.0.1.0",
+                    "column": 0,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 82,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    }
+                  },
+                  {
+                    "path": "0.0.1.1",
+                    "column": 1,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 675.33,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    }
+                  },
+                  {
+                    "path": "0.0.1.2",
+                    "column": 2,
+                    "row": 0,
+                    "columnSpan": 1,
+                    "rowSpan": 1,
+                    "cellFrame": {
+                      "left": 1268.67,
+                      "top": 232.4,
+                      "width": 569.33,
+                      "height": 725.6
+                    }
+                  }
+                ]
+              },
+              {
+                "path": "0.0.2",
+                "kind": "row",
+                "name": "footer",
+                "requestedSize": {
+                  "width": {
+                    "mode": "fill",
+                    "value": 1
+                  },
+                  "height": {
+                    "mode": "hug"
+                  }
+                },
+                "intrinsicSize": {
+                  "width": 189.12,
+                  "height": 18
+                },
+                "frame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                },
+                "children": [
+                  {
+                    "path": "0.0.2.0",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 146.13,
+                      "height": 18
+                    },
+                    "frame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146.13,
+                      "height": 36
+                    },
+                    "snappedFrame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146,
+                      "height": 36
+                    },
+                    "children": [],
+                    "text": "Compiler Design Project",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/2t83itgf",
+                      "id": "17",
+                      "kind": "shape"
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "kind": "text",
+                    "requestedSize": {
+                      "width": {
+                        "mode": "hug"
+                      },
+                      "height": {
+                        "mode": "hug"
+                      }
+                    },
+                    "intrinsicSize": {
+                      "width": 42.99,
+                      "height": 18
+                    },
+                    "frame": {
+                      "left": 1795.01,
+                      "top": 994,
+                      "width": 42.99,
+                      "height": 20
+                    },
+                    "snappedFrame": {
+                      "left": 1796,
+                      "top": 994,
+                      "width": 42,
+                      "height": 20
+                    },
+                    "children": [],
+                    "text": "12 / 17",
+                    "transform": "none",
+                    "element": {
+                      "aid": "sh/9gr2p8nq",
+                      "id": "18",
+                      "kind": "shape"
+                    }
+                  }
+                ],
+                "padding": {
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "gap": 0,
+                "effectiveGap": 1566.88,
+                "justifyOffset": 0,
+                "align": "center",
+                "justify": "between",
+                "contentFrame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                },
+                "items": [
+                  {
+                    "path": "0.0.2.0",
+                    "frame": {
+                      "left": 82,
+                      "top": 986,
+                      "width": 146.13,
+                      "height": 36
+                    }
+                  },
+                  {
+                    "path": "0.0.2.1",
+                    "frame": {
+                      "left": 1795.01,
+                      "top": 994,
+                      "width": 42.99,
+                      "height": 20
+                    }
+                  }
+                ]
+              }
+            ],
+            "padding": {
+              "top": 58,
+              "right": 82,
+              "bottom": 58,
+              "left": 82
+            },
+            "columnGap": 0,
+            "rowGap": 28,
+            "alignItems": "stretch",
+            "justifyItems": "stretch",
+            "contentFrame": {
+              "left": 82,
+              "top": 58,
+              "width": 1756,
+              "height": 964
+            },
+            "columns": [
+              {
+                "mode": "fr",
+                "value": 1
+              }
+            ],
+            "rows": [
+              "auto",
+              {
+                "mode": "fr",
+                "value": 1
+              },
+              "auto"
+            ],
+            "autoRows": "auto",
+            "resolvedRows": [
+              "auto",
+              {
+                "mode": "fr",
+                "value": 1
+              },
+              "auto"
+            ],
+            "columnSizes": [
+              1756
+            ],
+            "rowSizes": [
+              146.4,
+              725.6,
+              36
+            ],
+            "cells": [
+              {
+                "path": "0.0.0",
+                "column": 0,
+                "row": 0,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 58,
+                  "width": 1756,
+                  "height": 146.4
+                }
+              },
+              {
+                "path": "0.0.1",
+                "column": 0,
+                "row": 1,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 232.4,
+                  "width": 1756,
+                  "height": 725.6
+                }
+              },
+              {
+                "path": "0.0.2",
+                "column": 0,
+                "row": 2,
+                "columnSpan": 1,
+                "rowSpan": 1,
+                "cellFrame": {
+                  "left": 82,
+                  "top": 986,
+                  "width": 1756,
+                  "height": 36
+                }
+              }
+            ]
+          }
+        ],
+        "padding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "align": "start",
+        "justify": "start",
+        "contentFrame": {
+          "left": 0,
+          "top": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "element": {
+          "aid": "sh/psfil0rq",
+          "id": "1",
+          "kind": "shape"
+        }
+      }
+    }
+  ]
+}
